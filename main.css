@@ -1,0 +1,159 @@
+
+/* header*/
+header{
+    background-color: grey; 
+}
+
+.nav-item{
+    background-color: grey;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+  li a{
+    display: block;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color:white;
+}
+
+.color-mob-navbar{
+      color: white;
+}
+ /*carousel*/
+.position-carousel{
+      margin-top: -20px;
+}
+
+.slide{
+    width: auto;
+    height: auto;
+}
+ /*pills*/
+h2 .parenthèse{
+    display: inline-block;
+    font-size: 50%;
+}
+
+.badge{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar-brands{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 40px; 
+}
+/*article*/
+.profil{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.texteimg{
+    text-align: center;
+    color: white;
+    background: grey;
+    margin-top:10px;
+    margin-left: 70px;
+    position: absolute;
+    padding:2px 2px;
+   border-radius: 5px;
+ 
+}
+
+/*article sous le trait de séparation*/
+#trait_dessus { 
+border-top: 10px solid #000; 
+width : 700px; 
+} 
+
+.getreward{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.btn{
+    display: block;
+    margin-left: 30%;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+#like{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: grey;
+}
+.section{
+    width: 50%;
+}
+.card-body{
+    background-color: grey;
+    border-radius: 5px;
+}
+h2{
+    background-color: white;
+}
+p{
+    margin-left: 15px;
+}
+.table-responsive-sm{
+    width: 75%;       
+}
+tr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+td{
+    width: 25%;
+    text-align: center;
+}
+.rectangle{
+    display: flex;
+    justify-content: wrap;
+    width: 85%;
+    height:100px;
+    background:white;
+}
+.paragraph{
+    text-align: center;
+}
+.rond{
+    width:85px;
+    height:85px;
+    border-radius:50%;
+    background: grey;
+}
+.imgfloat{
+    float: left;
+    margin-right: 20px;
+}
+
+/*footer*/
+.container{
+    background-color: grey;
+    background-repeat: repeat;
+    background-size: 2rem;
+}
+#commentaire{
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+
+  
+ 
