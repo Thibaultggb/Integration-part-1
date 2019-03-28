@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Fellows <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#Fellows">Fellows <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">The ring</a>
@@ -76,8 +76,8 @@
     <!--Article-->
     <article>
       <div class="container">
-        <h2> <span class="fellows-wanted">Fellows wanted dead</span>
-          <div class="parenthèse">(or alive if you want to eat them later)</div>
+        <h2> <span id="Fellows">Fellows wanted dead</span>
+          <span class="parenthèse">(or alive if you want to eat them later</span>
         </h2>
       </div>
 
@@ -95,19 +95,20 @@
 
           <img
             src="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/18/93/43/35/20273936.jpg"
-            class="" alt="Image"></a>
-          <p class="texteimg">Reward 1000 gold coin</p>
+            class="img" alt="Image">
           <div class="card-body">
+            <div class="texteimg card-img-overlay text-light cardName">Reward 1000 gold coin</div>
             <h5 class="card-title">The Wizard</h5>
             <p class="card-text">Small description ...</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
+            <p class="texteimg">DEAD</p>
           <img
             src="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/18/93/43/35/20273936.jpg"
-            alt="Image"></a>
-          <p class="texteimg">DEAD</p>
+            alt="Image">
           <div class="card-body">
+              <div class="texteimg card-img-overlay text-light cardName">dead</div>
             <h5 class="card-title">Hobbit #3</h5>
             <p class="card-text">Small description ...</p>
           </div>
@@ -116,8 +117,9 @@
           <p class="texteimg">Reward 250 gold coin</p>
           <img
             src="http://a69.g.akamai.net/n/69/10688/v1/img5.allocine.fr/acmedia/medias/nmedia/18/93/43/35/20273936.jpg"
-            alt="Image"></a>
+            alt="Image">
           <div class="card-body">
+              <div class="texteimg card-img-overlay text-light cardName">Reward 250 gold coin</div>
             <h5 class="card-title">Yummi Dwarf</h5>
             <p class="card-text">Small description ...</p>
           </div>
@@ -158,21 +160,21 @@
       <div class="container">
 
         <div class="media">
-          <a href="https://goopics.net/i/08g4w"><img src="https://i.goopics.net/08g4w.png" alt="Image"></a></p>
+          <a href="https://goopics.net/i/08g4w"><img src="https://i.goopics.net/08g4w.png" alt="Image"></a>
           <div class="media-body">
             <p><strong>ElvesKiller22</strong></p>
-            <p>2 captures <a href="profile" id="profile">profile</a></p>
-            <p><a href="like" id="like">like 68k</a>
+            <p>2 captures <a href="profile" class="profile">profile</a></p>
+            <p><a href="like" class="like">like 68k</a>
             </p>
           </div>
         </div>
 
         <div class="media">
-          <a href="https://goopics.net/i/08g4w"><img src="https://i.goopics.net/08g4w.png" alt="Image"></a> </p>
+          <a href="https://goopics.net/i/08g4w"><img src="https://i.goopics.net/08g4w.png" alt="Image"></a>
           <div class="media-body">
             <p><strong>Goblin45</strong></p>
-            <p>1 captures <a href="profile" id="profile">profile</a></p>
-            <p><a href="like" id="like">like 68k</a>
+            <p>1 captures <a href="profile" class="profile">profile</a></p>
+            <p><a href="like" class="like">like 68k</a>
             </p>
           </div>
         </div>
@@ -193,8 +195,10 @@
               <div class="table-responsive-sm">
                 <table class="table table-sm table-hover table-bordered table-dark">
                   <thead>
+                    <tr>
                     <td>Features</td>
                     <td>Description</td>
+                    </tr>
                   </thead>
                   <tbody>
                     <tr>
@@ -218,7 +222,8 @@
                 <div class="rond"></div>
               </div>
             </div>
-        </section>
+          </div>
+          </section>
       </div>
     </article>
     <!--article text et image-->
@@ -245,23 +250,21 @@
       </article>
     </div>
   </section>
-  </div>
   <!--footer contenu pour les contacts-->
 
   <footer>
     <h2>Contact Us</h2>
-    <form method="post" label for="email">votre email : </label>
+    <form method="post" name="email">votre email :
       <input type="email" style="width : 45%;" />
 
     </form>
     <p>Mettre un commentaire :</p>
-    <form method="post" label for="commentaire">
-      </label>
+    <form method="post" name="commentaire">
       <textarea name="commentaire" id="commentaire" rows="10" cols="50">
 
              </textarea>
     </form>
-    </div>
+  
 
     <div id="container">
       <ul>
@@ -269,13 +272,13 @@
         <li><a href="Fellows" class="menu">Fellows</a></li>
         <li><a href="joinourarmy" class="menu">Join our army</a></li>
       </ul>
-    
+
       <ul>
         <li><a href="FAQ" class="menu">FAQ</a></li>
         <li><a href="rewardcondition" class="menu">reward condition</a></li>
         <li><a href="legalmention" class="menu">legal mention</a></li>
       </ul>
-    <p>Sauron4ever.com follow him also on twitter</p>
+      <p>Sauron4ever.com follow him also on twitter</p>
     </div>
 
 
