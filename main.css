@@ -1,4 +1,3 @@
-
 /* header*/
 header{
     background-color: grey; 
@@ -56,16 +55,13 @@ h2 .parenthèse{
     justify-content: space-around;  
 }
 
+.cardName:hover{
+    margin-top: 50%;
+}
+
 .texteimg{
     text-align: center;
     color: white;
-    background: grey;
-    margin-top:10px;
-    margin-left: 70px;
-    position: absolute;
-    padding:2px 2px;
-   border-radius: 5px;
- 
 }
 
 /*article sous le trait de séparation*/
@@ -87,7 +83,7 @@ width : 700px;
     justify-content: space-between;
     background-color: grey;
 }
-#like{
+.like{
     padding: 10px;
     border-radius: 5px;
     color: white;
@@ -142,7 +138,7 @@ td{
 
 /*footer*/
 .container{
-    background-color: grey;
+    
     background-repeat: repeat;
     background-size: 2rem;
 }
@@ -153,7 +149,3 @@ ul{
     list-style-type: none;
     color: white;
 }
-
-
-  
- 
